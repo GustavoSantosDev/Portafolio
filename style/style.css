@@ -1,45 +1,62 @@
-* {
-    margin: 0;
-    padding: 0%;
-}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .logo {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
     letter-spacing: 4px;
-    display: inline-block;
+    margin: 15px;
+    
 }
 
 h1{
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
-    color: white
+    color: white;
+    margin: 0;
+    margin-left: 160px;
 }
 
 h1 strong{
+    color: #02b7ff;
+}
+
+.celeste{
     color: #026fff;
+}
+
+.mayusculas{
+    text-transform: uppercase;
 }
 
 .hero{
     height: 300px;
     background-image: url('../img/fondohero.jpeg');
-    background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
     background-color: #fafafa;
+    padding: 20px;
+}
+
+.portfolio h2{
+    margin-bottom: 40px;
 }
 
 .project{
@@ -49,9 +66,12 @@ h1 strong{
     margin-bottom: 15px;
     padding: 20px;
     background-color: white;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
+
 
 .project-details{
     width: 500px;
@@ -61,13 +81,144 @@ h1 strong{
     width: 500px;
 }
 
+.project-course{
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.project-date{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.project-description{
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .header{
     background-color: #1b2127;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
 
 }
 
 .header a {
     color: white;
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 20px;
+    
 }
 
+.menu{ 
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+figure { 
+    margin: 0;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo-menor {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    letter-spacing: 4px;
+    
+}
+
+.contact{
+    background-color: #026fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 50px 10px;
+}
+
+.social-link.twitter{
+    background-image: url('../img/icons8-twitter.svg');
+    background-size: 50px 50px;
+}
+.social-link.instragram{
+    background-image: url('../img/icons8-instagram.svg');
+    background-size: 50px 50px;
+}
+.social-link.github{
+    background-image: url('../img/icons8-github.svg');
+    background-size: 50px 50px;
+}
+
+.contact-email input{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px 20px;
+
+}
+
+.contact-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.contact-email h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+}

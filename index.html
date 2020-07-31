@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Santos</title>
     <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pacifico&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header class="header">
-        <div>
-            <h2 class="logo">Gustavo Santos</h2>
-            <nav class="menu">
-                <ol>
-                    <li>
-                        <a href="#portafolio">Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/GustavoSantosDev">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#contacto">Trabajemos Juntos</a>
-                    </li>
-                </ol>
-            </nav>
-        </div>
+       <div class="container">
+           <h2 class="logo">Gustavo Santos</h2>
+        <nav class="menu">
+            <ol>
+                <li>
+                    <a href="#portafolio">Portafolio</a>
+                </li>
+                <li>
+                    <a href="https://github.com/GustavoSantosDev">Blog</a>
+                </li>
+                <li>
+                    <a href="#contacto">Trabajemos Juntos</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+            
+        
     </header>
     <section class="hero">
         <h1>
@@ -33,46 +35,62 @@
         <img src="" alt="">
      </section>
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Platzi Video</h3>
-                <h6 class="project-course">React Native / react</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p>Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar 
-                    el runcionamiento de React y React Native. desde crear un viste-detalle, hasta patrones 
-                    avanzados de navegacion, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas</p>
-                <p></p>
+        <div class="container"><h2 class="celeste mayusculas">Portafolio</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / react</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                    <p class="project-description">Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar 
+                        el runcionamiento de React y React Native. desde crear un viste-detalle, hasta patrones 
+                        avanzados de navegacion, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas</p>
+                    
+                </div>
                 <figure class="project-imageContainer"> 
-                    <img src="img/imagenproyecto.webp" alt="">
+                    <img src="img/imagenproyecto.webp" alt="" height="400">
                 </figure>
-            </div>
-            
-        </article>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Platzi Video</h3>
-                <h6 class="project-course">React Native / react</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p>Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar 
-                    el runcionamiento de React y React Native. desde crear un viste-detalle, hasta patrones 
-                    avanzados de navegacion, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas</p>
-                <p></p>
+            </article>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / react</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                    <p class="project-description">Platzi video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar 
+                        el runcionamiento de React y React Native. desde crear un viste-detalle, hasta patrones 
+                        avanzados de navegacion, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataformas</p>
+                    
+                </div>
                 <figure class="project-imageContainer"> 
-                    <img src="img/imagenproyecto.webp" alt="">
+                    <img src="img/imagenproyecto.webp" alt="" height="400">
                 </figure>
-            </div>
-            
-        </article>
+            </article></div>
+        
     </section>
     
     <section id="contacto" class="contact">
-        <h3 class="contact-title">Contacto</h3>
-        <form action="/suscripcion/" class="contact-email">
-        <input type="email" name="" id="" placeholder="Dejame Tu Email"> 
-        <button>Enviar</button>
-        </form>
+        <div class="container"><form action="/suscripcion/" class="contact-email">
+            <h3 class="contact-title">¿Creamos algo Juntos?</h3>
+           <input type="email" name="" id="" placeholder="Dejame Tu Email"> 
+           <button>Enviar</button>
+           </form>
+           <div class="social">
+               <a href="https://twitter.com/GUSTAVO_PSANTOS" class="social-link twitter"></a>
+               <a href="https://github.com/GustavoSantosDev" class="social-link github"></a>
+               <a href="https://www.instagram.com/j.gustavosanttos/?hl=es-la" class="social-link instragram"></a>
+           </div>
+        
     </section>
-     <footer class="footer">footer</footer>
+    
+     <footer class="footer">
+         <div class="container"> <div>
+            <p>Portafolio De Gustavo Santos</p>
+            
+        </div>
+        <div><h2 class="logo-menor">Gustavo Santos</h2></div>
+        <div>
+            <p>Disigned with by Gustavo Santos</p>
+        </div></div>
+        
+     </footer>
 </body>
 </html>
